@@ -41,8 +41,8 @@ public class ArrayListTest<E> extends AbstractList<E>
   {
     this.elementData = paramCollection.toArray();
     this.size = this.elementData.length;
-    if (this.elementData.getClass() != [Ljava.lang.Object.class)
-      this.elementData = Arrays.copyOf(this.elementData, this.size, [Ljava.lang.Object.class);
+//    if (this.elementData.getClass() != [Ljava.lang.Object.class)
+//      this.elementData = Arrays.copyOf(this.elementData, this.size, [Ljava.lang.Object.class);
   }
 
   public void trimToSize()
